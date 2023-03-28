@@ -35,7 +35,7 @@ basic.forever(function () {
         if (SONAR < 5) {
             cuteBot.motors(0, 0)
             basic.pause(1000)
-            cuteBot.motors(randint(0, 50), randint(0, 50))
+            cuteBot.motors(randint(0, -50), randint(0, -50))
             basic.pause(1000)
         } else {
             cuteBot.motors(50, 50)
