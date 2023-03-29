@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
     START = 1
 })
+input.onButtonPressed(Button.AB, function () {
+	
+})
 input.onButtonPressed(Button.B, function () {
     cuteBot.stopcar()
     START = 0
@@ -9,9 +12,7 @@ let SONAR = 0
 let START = 0
 START = 0
 basic.forever(function () {
-    if (START == 1) {
-    	
-    }
+	
 })
 basic.forever(function () {
     cuteBot.colorLight(cuteBot.RGBLights.ALL, 0xff0000)
